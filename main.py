@@ -10,8 +10,8 @@ def show_menu():
     print("5. Atualizar a data de devolução de um empréstimo")
     print("6. Exibir todos os livros emprestados no momento")
     print("7. Exibir todos os livros do banco de dados")
-    print("8. Alugar Material")
     print("0. Sair")
+    
 
     choice = input("Digite o número da opção desejada: ")
     return choice
