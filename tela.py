@@ -528,6 +528,7 @@ img_novo_livro = ImageTk.PhotoImage(img_novo_livro)
 b_novo_livro = Button(frameEsquerda,command=lambda:control('novo_livro'), image=img_novo_livro, compound=LEFT,anchor=NW, text='  Novo livro' ,bg=co4, fg=co1,font=('Ivy 11'), overrelief=RIDGE, relief=GROOVE)
 b_novo_livro.grid(row=1, column=0,sticky=NSEW, padx=5, pady=6)
 
+#  Ver livros
 img_ver_livros = Image.open('logo.png')
 img_ver_livros = img_ver_livros.resize((18, 18))
 img_ver_livros = ImageTk.PhotoImage(img_ver_livros)
