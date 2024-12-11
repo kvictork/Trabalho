@@ -67,7 +67,7 @@ app_img = ImageTk.PhotoImage(app_img)
 app_logo = Label(frameCima, image=app_img, width=1000,compound=LEFT, padx=5, relief=FLAT, anchor=NW,bg=co6, fg=co1)
 app_logo.place(x=5, y=0)
 
-app_ = Label(frameCima,text="Sistema de Biblioteca da UNEB ",compound=LEFT, padx=5, relief=FLAT, anchor=NW, font=('Verdana 15 bold'),bg=co6, fg=co1)
+app_ = Label(frameCima,text=" UNEBook ",compound=LEFT, padx=5, relief=FLAT, anchor=NW, font=('Verdana 15 bold'),bg=co6, fg=co1)
 app_.place(x=50, y=7)
 
 l_linha = Label(frameCima, width=770, height=1,anchor=NW, font=('Verdana 1 '), bg=co3, fg=co1)
