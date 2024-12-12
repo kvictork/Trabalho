@@ -36,7 +36,7 @@ co11 = "#f2f4f2"
 # Criando janela ---------------------------------------------
 
 janela = Tk()
-janela.title ("")
+janela.title ("Biblioteca Digital - UNEBOOK")
 janela.geometry('770x330')
 janela.configure(background=co1)
 janela.resizable(width=FALSE, height=FALSE)
